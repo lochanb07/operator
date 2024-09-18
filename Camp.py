@@ -24,18 +24,14 @@ print("%.2f"%a)
 
 '''
 def main():
-    # Input for distance to the camp
+    
     X = float(input())
-    # Input for bike mileage
     Y = float(input())
-    # Input for cost of petrol
     Z = float(input())
     
-    # Calculate the total amount needed for 30 days
     total_cost = (X * Z * 30) / Y
     
-    # Display the result formatted to 2 decimal places
     print(f"{total_cost:.2f}")
-
-if __name__ == "__main__":
+    
+    if __name__ == "__main__":
     main()
